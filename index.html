@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+    <h2>Welcome Back</h2>
+    <p>Login to continue</p>
+
+    <input type="text" id="username" placeholder="Username">
+
+    <div class="password-box">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="togglePassword()">👁</button>
+    </div>
+
+    <label>
+      <input type="checkbox" id="remember"> Remember Me
+    </label>
+
+    <button class="login-btn" onclick="login()">Login</button>
+
+    <p id="message"></p>
+  </div>
+
+  <!-- Single JavaScript file -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
